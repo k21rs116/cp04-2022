@@ -40,7 +40,6 @@
     }
     
     #btnA {
-        color: #007cc4;
         font-size: 20px;
         position:absolute; top:380px; left:2%; width:43%; height:60px; 
     }
@@ -69,4 +68,8 @@
 
     body{
         background-color: skyblue;
+    }
+
+    button{
+        color: blue;
     }
