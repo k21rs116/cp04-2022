@@ -47,13 +47,13 @@
     }
     
     #btnA {
-        position:absolute; top:380px; left:2%; width:43%; height:60px; 
+        position:absolute; top:380px; left:2%; width:35%; height:60px; 
         border-radius: 50px;
         color: green;
     }
     
     #btnB {
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        position:absolute; top:380px; left:37%; width:25%; height:60px; 
         border-radius: 20px;
         color: red;
     }
@@ -65,7 +65,7 @@
     }
 
     #btnD {
-        position:absolute; top:380px; left:70%; width:43%; height:60px; 
+        position:absolute; top:380px; left:62%; width:35%; height:60px; 
         border-radius: 50px;
         color: green;
     }
