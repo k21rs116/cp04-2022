@@ -158,6 +158,8 @@
     var active = false;
     var startTime = 0;
     var period = 0;
+    var count = 0;
+    var stopTime = 0;
 
 
     
@@ -166,7 +168,7 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', true);
         $('#btnC').prop('disabled', false);
-        $('#btnD').prop('disabled', false);
+        $('#btnD').prop('disabled', true);
         btnCClick(null);
     }
 
@@ -191,6 +193,7 @@
         startTime = new Date();
         $("#btnA").prop("disabled",true);
         $("#btnB").prop("disabled",false);
+        $("#btnD").prop("disabled",false);
     }
 
     // ButtonBがクリックされた時の処理
@@ -198,6 +201,8 @@
         active = false;
         $("#btnA").prop("disabled",false);
         $("#btnB").prop("disabled",true);
+        $("#btnD").prop("disabled",false);
+        stopTime = new Date;
     }
 
     // ButtonCがクリックされた時の処理
@@ -255,7 +260,7 @@
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
     <button id="btnC">set</button>  
-    <button id="btnD">Restart</button>  
+    <button id="btnD">Reset</button>  
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
